@@ -1616,7 +1616,6 @@ class TestChatCompletionsRequestHandlerMultiturn:
         assert any(item["type"] == "text" for item in messages[2]["content"])
         assert any(item["type"] == "image_url" for item in messages[2]["content"])
 
-
 class TestPoolingRequestHandler:
     """Test cases for PoolingRequestHandler.
 
